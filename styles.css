@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;/*параметры рамки*/
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.btn-subm{
+    cursor: pointer;
+}
+
+.btn-err{
+    cursor: pointer;
+    height: 2rem;
+    width: 10rem;
+}
+
+.subheader{
+    height: 5rem;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cornflowerblue;
+    color: white;
+    height: 5rem;
+    width: 100%;
+}
+
+header .to-main-page{
+    margin-top: -1.4rem;
+    height: 3rem;
+}
+
+header h3{
+    margin-top: 1rem;
+    line-height: 0.5px;
+    line-height: 0;
+}
+
+header .to-main-page button{
+    margin: 0 30%;
+    border: none;
+    color: tomato;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main{
+    margin: 5% 10%;
+}
+
+main .main-page-group{
+    margin-top: 9rem;
+}
+
+main .main-page-group h3{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+main .btn-main{
+    width: 15rem;
+    height: 2rem;
+    background: cornflowerblue;
+    font-size: 1rem;
+    color:white;
+    font-weight: bold;
+}
+
+main .selection-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adm-form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adm-form .adm-form-sub-gr{
+    margin-left: 1%;
+}
+
+.adm-form input{
+    height: 2rem;
+    width: 17rem;
+}
+
+.incorr{
+    text-align: center;
+    font-size: 1rem;
+    color: red;
+}
+
+.btn-del{
+    background: tomato;
+    border-color: white;
+    color: white;
+}
+
+.search-form input{
+    height: 2rem;
+    width: 20rem;
+}
+
+.search-form select{
+    height: 2rem;
+    width: 20rem;
+}
+
+.search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-users h3{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.search-result h3{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.upd-form-group input{
+    height: 2rem;
+    width: 20rem;
+}
+
+.upd-form-group select{
+    height: 2rem;
+    width: 20rem;
+}
+
+.upd-form-btn-group{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upd-form-btn-group .btn-upd{
+    height: 2rem;
+    width: 10rem;
+}
+
+main .btn-back{
+    margin-left: 0.5rem;
+    height: 2rem;
+    width: 10rem;
+    font-weight: bold;
+    background-color: tomato;
+    color: white;
+    border: white;
+}
+
+.status-table{
+    margin: 0 30%;
+}
+
+.upd-status input{
+    height: 2rem;
+    width: 20rem;
+}
+
+.upd-status-btn .btn-upd{
+    height: 2rem;
+    width: 10rem;
+}
+
+
